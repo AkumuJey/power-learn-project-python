@@ -31,3 +31,20 @@ def addMoney(**monies):
 
 print(addMoney(John=23,Jane=35,Tom=18))
 print(addAges(John=23,Jane=35,Tom=18))
+
+
+
+
+
+list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+sum = 0
+sum1 = 0
+
+for elem in list1:
+    if (elem % 2 == 0):
+        sum = sum + elem
+        continue
+    if (elem % 3 == 0):
+        sum1 = sum1 + elem
+
+print(sum , end=" ")
