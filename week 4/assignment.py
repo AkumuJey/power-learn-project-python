@@ -9,3 +9,6 @@ class Person:
 
 person1 = Person("Akumu J", 43, "male")
 person1.introduce()
+person1.school = "Maseno"
+
+print(person1.school)
